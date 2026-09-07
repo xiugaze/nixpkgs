@@ -16,6 +16,7 @@ makeScopeWithSplicing' {
 
       atomic = self.callPackage ../development/ada-modules/atomic { };
       ansi-ada = self.callPackage ../development/ada-modules/ansi-ada { };
+      progress_indicators = self.callPackage ../development/ada-modules/progress_indicators { };
 
       gpr2 = self.callPackage ../development/ada-modules/gpr2 { };
 
