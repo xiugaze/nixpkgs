@@ -14,6 +14,8 @@ makeScopeWithSplicing' {
     self: {
       inherit gnat;
 
+      atomic = self.callPackage ../development/ada-modules/atomic { };
+
       gpr2 = self.callPackage ../development/ada-modules/gpr2 { };
 
       gprbuild-boot = self.callPackage ../development/ada-modules/gprbuild/boot.nix { };
@@ -77,6 +79,7 @@ makeScopeWithSplicing' {
       gnatinspect = self.callPackage ../development/ada-modules/gnatcoll/db.nix {
         component = "gnatinspect";
       };
+
     }
   );
 }
