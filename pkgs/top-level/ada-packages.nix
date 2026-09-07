@@ -15,6 +15,7 @@ makeScopeWithSplicing' {
       inherit gnat;
 
       atomic = self.callPackage ../development/ada-modules/atomic { };
+      ansi-ada = self.callPackage ../development/ada-modules/ansi-ada { };
 
       gpr2 = self.callPackage ../development/ada-modules/gpr2 { };
 
