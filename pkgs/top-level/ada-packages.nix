@@ -18,6 +18,7 @@ makeScopeWithSplicing' {
       ansi-ada = self.callPackage ../development/ada-modules/ansi-ada { };
       progress_indicators = self.callPackage ../development/ada-modules/progress_indicators { };
       dir_iterators = self.callPackage ../development/ada-modules/dir_iterators { };
+      trendy_terminal = self.callPackage ../development/ada-modules/trendy_terminal { };
 
       gpr2 = self.callPackage ../development/ada-modules/gpr2 { };
 
