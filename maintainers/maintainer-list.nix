@@ -4682,6 +4682,12 @@
     githubId = 289492;
     name = "Philip Horger";
   };
+  candreano = {
+    email = "caleb@andreano.dev";
+    github = "candreano";
+    githubId = 000000;
+    name = "Caleb Andreano";
+  };
   caniko = {
     email = "gpg@rotas.mozmail.com";
     github = "caniko";
